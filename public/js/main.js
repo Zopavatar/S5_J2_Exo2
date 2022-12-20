@@ -17,7 +17,7 @@ console.log(coding);
 
 //Exo 3
 
-const newCoding = ["Coding 20", "Coding 21", "Coding 22"];
+let newCoding = ["Coding 20", "Coding 21", "Coding 22"];
 newCoding.splice(4, 0, "Coding 23");
 console.log(newCoding);
 
@@ -26,5 +26,15 @@ console.log(newCoding);
 
 let erase = newCoding.pop();
 console.log(newCoding);
+
+
+//bonus
+
+let array1 = [element1, element2, element3];
+let array2 = [element4, element5, element6];
+
+let concat = array1.concat(array2);
+console.log(concat);
+
 
 
