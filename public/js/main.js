@@ -30,8 +30,8 @@ console.log(newCoding);
 
 //bonus
 
-let array1 = [element1, element2, element3];
-let array2 = [element4, element5, element6];
+let array1 = ["element1", "element2", "element3"];
+let array2 = ["element4", "element5", "element6"];
 
 let concat = array1.concat(array2);
 console.log(concat);
